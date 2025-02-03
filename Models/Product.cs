@@ -6,7 +6,6 @@
         public string Name { get; set; }
 
         //FK
-        public ICollection<Ticket> Tickets { get; set; }
         public ICollection<ProductVersion> ProductVersions { get; set; }
     }
 }

@@ -4,7 +4,6 @@
     {
         public int Id { get; set; }
         public string Name { get; set; }
-        public ICollection<TicketOperatingSystem> TicketsOperatingSystems { get; set; }
-        public ICollection<OperatingSystemVersion> OperatingSystemVersions { get; set; }
+        public ICollection<TicketProductOperatingSystem> TicketsProductOperatingSystems { get; set; }
     }
 }
