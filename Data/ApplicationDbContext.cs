@@ -12,7 +12,7 @@ namespace Projet6_NexaWorks.Data
         public DbSet<Product> Products { get; set; }
         public DbSet<ProductVersion> ProductVersions { get; set; }
         public DbSet<AppOperatingSystem> AppOperatingSystems { get; set; }
-        public DbSet<TicketProductOperatingSystem> TicketOperatingSystems { get; set; }
+        public DbSet<TicketProductOperatingSystem> TicketProductOperatingSystems { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
